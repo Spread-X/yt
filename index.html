@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>SpreadX Youtube</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header"></div>
+        <section>
+        
+            <h2>Welcome to my website</h2>
+            <p style="font-size: 25px;"> Hi Welcome to my website, this is were I post news for my channel or for my website. <br>
+                 Before you continue please take some time to respect my work and subscribe, it means a lot. </p> <br>
+                 <p style="font-size: 25px;"> My website is in Beta stage please report ny bugs to this email: 
+                    <A href="mailto:ideagallaxy3000@gmail.com">
+                        ideagallaxy3000@gmail.com
+                    </A> </p><p style="font-size: 25px;">  <br>  </p>
+                    <p id="news">
+                        <a href="news.html">CLick here for the latest news</a>
+                    </p> <br>
+                <p id="cursivefont" style="font-size: 40px; font: bold;"> Until I release more news you
+                     can play the games <br> I have listed in the games section 
+                    </p> <br>
+                    <p id="games">
+                        <a href="gamelist.html">
+                            Click here for gamelist.
+                        </a>
+                    </p>   
+                    <p>
+                        <a href="https://www.youtube.com/channel/UC26w_JBOJ7Ri7lppKxl87rw" style="font-size: 27px;">Click here to go to my channel</a>
+                    </p>                  
+        </section>
+        <script type="text/javascript">
+            const bg = document.getElementById('header')
+            window.addEventListener('scroll', function(){
+                bg.style.backgroundSize = 135 - +window.pageYOffset/12+'%';
+                bg.style.opacity = 1 - +window.pageYOffset/700+'';
+            })
+        </script>
+    </body>
+    <style>
+        #news{
+            font-size: 27px;
+        }
+        #games{
+            font-size: 27px;
+        }
+    </style>
+    <script>
+        
+    </script>
+</html>
+

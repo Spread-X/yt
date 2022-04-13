@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Gamelist</title>
+        <link rel="stylesheet" href="Style2.css">
+    </head>
+    <body>
+        <div id="header"></div>
+        <section>
+            <h1>
+                <span style="background-color: #ffffff;">><a href="Slopegame.html"> Slope <br></a></span>
+                <span style="background-color: #ffffff;">><a href="panic.html">Panic <br></a></span>
+                <span style="background-color: #ffffff;">><a href="redtierunner.html">Red tie runner <br></a></span>
+                <span style="background-color: #ffffff;">><a href="Supermario.html"> Super mario  <br> </a><span>
+                <span style="background-color: #ffffff;">><a href="Ballfall.html"> Ball Fall 3d <br></a></span>
+                  <span style="background-color: #ffffff;">><a href="https://spread-x.github.io/gba"> Gameboy Advanced <br></a></span>
+                  <span style="background-color: #ffffff;">><a href="nogame.html"> There is no game (It is a game) <br></a></span>
+                  <span style="background-color: #ffffff;">><a href="pixel.html"> Ultra Pixel Survival <br></a></span>
+                  
+                  <span style="background-color: #ffffff;">><a href="alien.html"> Alien disaster game <br></a></span>
+                  
+                <span style="background-color: #ffffff;"><p>><a href="index.html">Click here to go back to the main page <br></p></a></span>
+                  
+            </h1>   
+        </section>
+        <script type="text/javascript">
+            const bg = document.getElementById('header')
+            window.addEventListener('scroll', function(){
+                bg.style.backgroundSize = 135 - +window.pageYOffset/12+'%';
+                bg.style.opacity = 1 - +window.pageYOffset/700+'';
+            })
+        </script>
+    </body>
+</html>
+
+

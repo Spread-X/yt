@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Super mario</title>
+        <link rel="stylesheet" href="style4.css">
+    </head>
+    <body>
+        <div id="header"></div>
+        <section>
+            <iframe width="560" height="315" allow="fullscreen; autoplay; encrypted-media" src="https://games.construct.net/769/latest" frameborder="0" allowfullscreen="true" msallowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" allowpaymentrequest="false" referrerpolicy="unsafe-url" sandbox="allow-same-origin allow-forms allow-scripts allow-pointer-lock allow-orientation-lock allow-popups" scrolling="no"></iframe>
+            <p>
+                <a href="gamelist.html">
+                    Click here to go to the gamelist.
+                </a>
+            </p>
+        </section>
+        <script type="text/javascript">
+            const bg = document.getElementById('header')
+            window.addEventListener('scroll', function(){
+                bg.style.backgroundSize = 135 - +window.pageYOffset/12+'%';
+                bg.style.opacity = 1 - +window.pageYOffset/700+'';
+            })
+        </script>
+    </body>
